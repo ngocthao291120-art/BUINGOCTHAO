@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
+<title id="title">Khuông nhạc và đàn tranh Việt Nam</title>
+<desc id="desc">Minh họa nghệ thuật màu mực tím và vàng của đàn tranh, cùng khuông nhạc uốn lượn và các nốt nhạc.</desc>
+<defs>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d9a6"/><stop offset="1" stop-color="#bb8950"/></linearGradient>
+  <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a9799f"/><stop offset="1" stop-color="#654365"/></linearGradient>
+</defs>
+<g fill="none" stroke="#b78cae" stroke-width="2.2" opacity=".8">
+  <path d="M18 72 C170 20 220 125 370 74 S620 25 875 72"/>
+  <path d="M18 88 C170 36 220 141 370 90 S620 41 875 88"/>
+  <path d="M18 104 C170 52 220 157 370 106 S620 57 875 104"/>
+  <path d="M18 120 C170 68 220 173 370 122 S620 73 875 120"/>
+  <path d="M18 136 C170 84 220 189 370 138 S620 89 875 136"/>
+</g>
+<g fill="#76506f" font-family="Georgia,serif" font-size="56">
+  <text x="42" y="112">𝄞</text><text x="220" y="85">♪</text><text x="420" y="112">♫</text><text x="655" y="76">♬</text><text x="805" y="116">♪</text>
+</g>
+<!-- stylized Vietnamese đàn tranh -->
+<g transform="translate(140 168) rotate(-7 300 70)">
+  <path d="M16 78 Q36 42 90 35 L540 35 Q590 42 614 78 L598 118 Q560 136 520 133 L90 133 Q42 132 16 105Z" fill="#6b4965" opacity=".14"/>
+  <path d="M12 65 Q40 28 92 28 L540 28 Q592 34 620 68 L604 106 Q575 123 526 120 L88 120 Q39 118 12 91Z" fill="url(#silk)" stroke="#654365" stroke-width="3"/>
+  <path d="M28 66 Q48 44 94 43 L537 43 Q577 47 600 69 L589 93 Q558 105 520 103 L95 103 Q52 102 27 84Z" fill="url(#wood)" stroke="#d5ad70" stroke-width="2"/>
+  <path d="M44 74 Q100 66 162 74 T280 74 T398 74 T580 74" fill="none" stroke="#8f6038" stroke-width="2"/>
+  <g stroke="#fff1d5" stroke-width="1.8" opacity=".95">
+    <path d="M55 48 L55 99"/><path d="M92 45 L92 101"/><path d="M129 44 L129 102"/><path d="M166 43 L166 102"/><path d="M203 43 L203 102"/><path d="M240 43 L240 102"/><path d="M277 43 L277 102"/><path d="M314 43 L314 102"/><path d="M351 43 L351 102"/><path d="M388 43 L388 102"/><path d="M425 43 L425 102"/><path d="M462 43 L462 102"/><path d="M499 43 L499 102"/><path d="M536 44 L536 101"/><path d="M573 49 L573 98"/>
+  </g>
+  <g fill="#76506f" stroke="#654365" stroke-width="1">
+    <path d="M75 48 l-9 17 h18z"/><path d="M150 46 l-9 17 h18z"/><path d="M225 45 l-9 17 h18z"/><path d="M300 45 l-9 17 h18z"/><path d="M375 45 l-9 17 h18z"/><path d="M450 45 l-9 17 h18z"/><path d="M525 46 l-9 17 h18z"/>
+  </g>
+  <path d="M38 113 Q310 128 590 112" fill="none" stroke="#e8c98d" stroke-width="3" opacity=".9"/>
+</g>
+<g fill="#c39b57" opacity=".95"><circle cx="750" cy="212" r="4"/><circle cx="774" cy="233" r="3"/><circle cx="720" cy="244" r="2.5"/><circle cx="104" cy="226" r="3"/><circle cx="128" cy="245" r="2.5"/></g>
+</svg>
