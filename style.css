@@ -75,3 +75,63 @@ body{background-image:radial-gradient(circle at 8% 16%,rgba(195,155,87,.08) 0 2p
 .traditional-music-art{width:100%;max-width:100%;height:auto;display:block;margin:-4px auto 18px;filter:drop-shadow(0 8px 10px rgba(15,8,20,.12))}
 .link-panel{overflow:hidden}
 @media(max-width:650px){.traditional-music-art{margin-top:0;margin-bottom:14px}}
+
+
+/* Visual polish refresh — editorial music portfolio */
+:root{
+  --ink:#302536;--muted:#776878;--paper:#fffaf4;--tint:#f7edf4;
+  --line:#e8d9e6;--accent:#805779;--accent-dark:#5e3d59;
+  --gold:#c6a05f;--dark:#302238;--radius:24px;
+  --shadow:0 18px 48px rgba(74,45,72,.12);
+}
+body{
+  background-color:var(--paper);
+  background-image:radial-gradient(circle at 1px 1px,rgba(128,87,121,.08) 1.4px,transparent 0);
+  background-size:28px 28px;
+}
+.site-header{box-shadow:0 6px 24px rgba(66,42,65,.04)}
+.brand-mark{width:48px;height:48px;font-size:1rem;box-shadow:4px 4px 0 #ead8e7}
+.main-nav>a,.nav-dropdown>a{transition:background .2s ease,color .2s ease,transform .2s ease}
+.main-nav>a:hover,.nav-dropdown>a:hover{transform:translateY(-1px)}
+.hero{gap:clamp(38px,6vw,82px)}
+.hero-copy{position:relative}
+.hero .lead{line-height:1.9}
+.portrait-card{position:relative}
+.portrait-card:before{content:"♫";position:absolute;left:-26px;top:14%;font-family:'Cormorant Garamond',serif;font-size:3.5rem;color:#bd92b5;transform:rotate(-12deg);z-index:2}
+.portrait-card:after{content:"♪";position:absolute;right:-16px;bottom:22%;font-size:2.8rem;color:#c6a05f;transform:rotate(12deg);z-index:2}
+.portrait-frame{box-shadow:10px 10px 0 #ead9e7,0 18px 40px rgba(77,48,73,.13)}
+.button{transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.button:hover{transform:translateY(-3px)}
+.button-primary{box-shadow:0 6px 0 #e8d5e5,0 10px 22px rgba(94,61,89,.12)}
+.section-heading{position:relative}
+.section-heading h2{letter-spacing:-.02em}
+.project-grid{gap:22px}
+.project-card{min-height:250px;padding:27px;box-shadow:0 5px 0 #f0e3ed,0 12px 30px rgba(77,48,73,.035)}
+.project-card:after{content:"♪";position:absolute;right:18px;bottom:10px;font-family:'Cormorant Garamond',serif;font-size:2.5rem;color:rgba(128,87,121,.15);transform:rotate(-12deg)}
+.project-card h3{font-size:1.45rem}
+.card-link{display:inline-flex;align-items:center;gap:8px}
+.card-link:after{content:"↗";transition:transform .2s ease}
+.project-card:hover .card-link:after{transform:translate(3px,-2px)}
+.section-tint{background:linear-gradient(135deg,rgba(247,237,244,.97),rgba(255,246,228,.96))}
+.section-dark{position:relative;overflow:hidden}
+.section-dark:before{content:"";position:absolute;left:-90px;bottom:-140px;width:310px;height:310px;border:1px solid rgba(231,204,226,.17);border-radius:50%;box-shadow:0 0 0 24px rgba(231,204,226,.035),0 0 0 52px rgba(231,204,226,.025);pointer-events:none}
+.link-panel{box-shadow:0 18px 36px rgba(15,8,18,.13);backdrop-filter:blur(8px)}
+.link-panel .button-light{box-shadow:0 5px 0 rgba(235,218,232,.35)}
+.page-banner{background:linear-gradient(120deg,#f7edf4 0%,#fff7e9 100%);position:relative;overflow:hidden}
+.page-banner:after{content:"♫";position:absolute;right:7%;top:0;font-family:'Cormorant Garamond',serif;font-size:9rem;color:rgba(128,87,121,.09);transform:rotate(12deg);pointer-events:none}
+.content-narrow{background:rgba(255,253,248,.82);padding:clamp(22px,4vw,42px);border:1px solid rgba(232,217,230,.8);border-radius:26px;box-shadow:0 12px 35px rgba(77,48,73,.045)}
+.evidence-box{border-style:solid;border-color:#e6d5e3;background:linear-gradient(135deg,#fffdf8,#f9f0f7);align-items:center}
+.evidence-box .button{margin-top:8px}
+.pdf-link-section .evidence-box{border-radius:18px}
+.page-navigation .button{min-width:150px}
+.site-footer{background:rgba(247,237,244,.94)}
+.site-footer .brand-mark{width:38px;height:38px}
+a:focus-visible,button:focus-visible{outline:3px solid #c6a05f;outline-offset:4px}
+@media(max-width:650px){
+  body{background-size:23px 23px}
+  .hero{padding-top:48px}
+  .portrait-card:before{left:-8px;font-size:2.5rem}
+  .portrait-card:after{right:-8px;font-size:2rem}
+  .project-card{min-height:205px;padding:23px}
+  .content-narrow{padding:20px;border-radius:18px}
+}
